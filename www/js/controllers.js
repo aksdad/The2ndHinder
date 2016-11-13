@@ -56,4 +56,8 @@ angular.module('starter.controllers', [])
 })
 
 .controller('HomeCtrl', function($scope, $stateParams) {
+})
+
+.controller('ProfileCtrl', function($scope, $stateParams) {
+
 });
