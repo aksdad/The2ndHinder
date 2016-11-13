@@ -1,1 +1,42 @@
 /* Empty. Add your own CSS if you like */
+
+.home.event-info {
+  float: left;
+  width: 33%;
+  padding: 10px;
+}
+
+.home .hack-favicon {
+  width: 100%;
+}
+
+.home.prof-content {
+  top: 0;
+  bottom: 0;
+  width: 92%;
+  margin: auto;
+}
+
+.home.prof-content img {
+  text-align: center;
+  width: 100%;
+}
+
+.bar-footer.footer-buttons {
+     padding: 0px;
+}
+
+.bar-footer.footer-buttons .row {
+     padding: 0px;
+}
+
+.bar-footer.footer-buttons .row .col {
+     text-align: center;
+}
+
+ion-list a.item{
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+}

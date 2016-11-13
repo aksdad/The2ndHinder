@@ -1,5 +1,25 @@
-<ion-view view-title="Home">
-  <ion-content>
-    Hi
-  </ion-content>
+<ion-view title="Hinder">
+<ion-content>
+<!-- Center content -->
+    <ion-side-menu-content>
+      <ion-content>
+        <div class="home event-info">
+          You're at {{hackathon_name}}
+        </div>
+        <div class="home event-info">
+          <img ng-src="img/yhack-logo.png" class="hack-favicon">
+        </div>
+        <div class="home event-info">
+          <div id="time-remain"></div>
+        </div>
+        <div class="home prof-content">
+          <img ng-src="img/cindy_profile.jpg">
+          <div class="home prof-desc">
+            <h4><b>Cindy</b>, 23</h4>
+          </div>
+        </div>
+      </ion-content>
+    </ion-side-menu-content>
+    
+</ion-content>
 </ion-view>
