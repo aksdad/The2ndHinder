@@ -1,6 +1,6 @@
 /* Empty. Add your own CSS if you like */
 
-.home.event-info {
+.home .event-info {
   float: left;
   width: 33%;
   padding: 10px;
@@ -10,16 +10,28 @@
   width: 100%;
 }
 
-.home.prof-content {
+.home .prof-content {
   top: 0;
   bottom: 0;
   width: 92%;
   margin: auto;
 }
 
-.home.prof-content img {
+.home .prof-content img {
   text-align: center;
   width: 100%;
+  margin-top: 15px;
+}
+
+.home .btns {
+  width: 100%;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.home #match-btn {
+  margin: 5%;
+  width: 35%;
 }
 
 .bar-footer.footer-buttons {

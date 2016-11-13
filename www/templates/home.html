@@ -1,21 +1,29 @@
 <ion-view title="Hinder">
 <ion-content>
 <!-- Center content -->
-    <ion-side-menu-content>
+    <ion-side-menu-content class="home">
       <ion-content>
-        <div class="home event-info">
+        <div class="event-info">
           You're at {{hackathon_name}}
         </div>
-        <div class="home event-info">
+        <div class="event-info">
           <img ng-src="img/yhack-logo.png" class="hack-favicon">
         </div>
-        <div class="home event-info">
+        <div class="event-info">
           <div id="time-remain"></div>
         </div>
-        <div class="home prof-content">
+        <div class="prof-content">
           <img ng-src="img/cindy_profile.jpg">
-          <div class="home prof-desc">
-            <h4><b>Cindy</b>, 23</h4>
+          <div class="prof-desc">
+            <h4><b>Cindy</b>, 19</h4>
+          </div>
+          <div class="btns">
+            <button id="match-btn" class="button button-outline button-assertive">
+              Nay
+            </button>
+            <button id="match-btn" class="button button-outline button-balanced">
+              Ayy!
+            </button>
           </div>
         </div>
       </ion-content>
